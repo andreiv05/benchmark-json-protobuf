@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option optimize_for = SPEED;
+
 message TestMessage {
     string someText = 1;
 }
