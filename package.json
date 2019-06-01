@@ -1,0 +1,29 @@
+{
+  "name": "benchmark-json-protobuf",
+  "version": "1.0.0",
+  "description": "A comparison benchmark test between different data serialization methods over WebSocket communication protocol.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiv05/benchmark-json-protobuf.git"
+  },
+  "keywords": [
+    "json",
+    "protobuf",
+    "benchmark"
+  ],
+  "author": "Andrei Vasile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreiv05/benchmark-json-protobuf/issues"
+  },
+  "homepage": "https://github.com/andreiv05/benchmark-json-protobuf#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-protobuf": "^3.8.0",
+    "ws": "^7.0.0"
+  }
+}
