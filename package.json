@@ -22,8 +22,11 @@
   },
   "homepage": "https://github.com/andreiv05/benchmark-json-protobuf#readme",
   "dependencies": {
+    "benchmark": "^2.1.4",
+    "chalk": "^2.4.2",
     "express": "^4.17.1",
     "google-protobuf": "^3.8.0",
+    "os-utils": "0.0.14",
     "protobufjs": "^6.8.8",
     "ws": "^7.0.0"
   }

@@ -17,19 +17,17 @@ protobuf.load("testmessage.proto")
 
             //connection is up, let's add a simple simple event
             ws.on('message', data => {
-
-                // Proto
-                var message = TestMessage.decode(data);
-                console.log('received: %s', message.someText);
-                ws.send(`Hello, you sent -> ${message.someText}`);
-
-
-                // JSON
-
-                // var message = JSON.parse(data);
-                // console.log('received: %s', message.SomeText);
-                // ws.send(`Hello, you sent -> ${message.SomeText}`);
-
+                if (Buffer.isBuffer(data)) {
+                    // PROTO
+                    var message = TestMessage.decode(data);
+                    console.log('Proto received: %s', message.someText);
+                    ws.send(message.someText);
+                } else {
+                    //JSON
+                    var message = JSON.parse(data);
+                    console.log('JSON received: %s', message.someText);
+                    ws.send(message.someText);
+                }
 
             });
         });
