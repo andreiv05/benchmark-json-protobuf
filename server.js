@@ -21,12 +21,12 @@ protobuf.load(`data/test${process.argv[2]}.proto`)
                     // PROTO
                     var message = TestMessage.decode(data);
                     console.log("Proto received");
-                    ws.send(message.rocket);
+                    ws.send("ACK");
                 } else {
                     //JSON
                     var message = JSON.parse(data);
                     console.log("JSON received");
-                    ws.send(message.rocket);
+                    ws.send("ACK");
                 }
 
             });
