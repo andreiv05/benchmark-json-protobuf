@@ -1,0 +1,15 @@
+syntax = "proto3";
+message TestMessage {
+ int32 rather = 1;
+ int32 taught = 2;
+message WORKER {
+ float slope = 1;
+ int32 finally = 2;
+ int32 sail = 3;
+ float deep = 4;
+ int32 bet = 5;
+}
+ WORKER worker = 3;
+ int32 dirty = 4;
+ float extra = 5;
+}

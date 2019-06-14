@@ -1,0 +1,15 @@
+syntax = "proto3";
+message TestMessage {
+ string hair = 1;
+ string shelf = 2;
+message INFLUENCE {
+ string quick = 1;
+ string his = 2;
+ string attached = 3;
+ string worry = 4;
+ string studied = 5;
+}
+ INFLUENCE influence = 3;
+ string arm = 4;
+ string student = 5;
+}

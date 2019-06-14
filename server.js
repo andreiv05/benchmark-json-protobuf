@@ -10,7 +10,7 @@ const wss = new WebSocket.Server({
     server
 });
 
-protobuf.load("testmessage.proto")
+protobuf.load(`data/test${process.argv[2]}.proto`)
     .then(root => {
         var TestMessage = root.lookupType("TestMessage");
         wss.on('connection', ws => {
@@ -20,13 +20,13 @@ protobuf.load("testmessage.proto")
                 if (Buffer.isBuffer(data)) {
                     // PROTO
                     var message = TestMessage.decode(data);
-                    console.log('Proto received: %s', message.someText);
-                    ws.send(message.someText);
+                    console.log("Proto received");
+                    ws.send(message.rocket);
                 } else {
                     //JSON
                     var message = JSON.parse(data);
-                    console.log('JSON received: %s', message.someText);
-                    ws.send(message.someText);
+                    console.log("JSON received");
+                    ws.send(message.rocket);
                 }
 
             });

@@ -1,0 +1,56 @@
+syntax = "proto3";
+message TestMessage {
+ int32 syllable = 1;
+ float rocket = 2;
+message PALACE {
+ int32 brown = 1;
+ float none = 2;
+ string transportation = 3;
+ string final = 4;
+message WEIGHT {
+ int32 pattern = 1;
+ string feathers = 2;
+}
+ WEIGHT weight = 5;
+ string constantly = 6;
+message DEPTH {
+ string house = 1;
+ string see = 2;
+ int32 simply = 3;
+ int32 are = 4;
+ string sport = 5;
+ int32 tomorrow = 6;
+ float native = 7;
+ string canal = 8;
+ int32 grabbed = 9;
+ int32 smile = 10;
+ int32 wait = 11;
+ float meant = 12;
+ int32 greater = 13;
+ float who = 14;
+ int32 heat = 15;
+ int32 plane = 16;
+ string trouble = 17;
+ int32 lady = 18;
+ int32 stage = 19;
+ int32 many = 20;
+ int32 single = 21;
+ int32 she = 22;
+ int32 each = 23;
+ string root = 24;
+ int32 essential = 25;
+}
+ DEPTH depth = 7;
+ string heading = 8;
+ int32 held = 9;
+ int32 rate = 10;
+ int32 nearly = 11;
+ int32 church = 12;
+ int32 it = 13;
+ string silk = 14;
+ string day = 15;
+ float bank = 16;
+ int32 built = 17;
+}
+ PALACE palace = 3;
+}

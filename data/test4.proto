@@ -1,0 +1,185 @@
+syntax = "proto3";
+message TestMessage {
+ int32 certain = 1;
+ string tonight = 2;
+ float examine = 3;
+ string touch = 4;
+ int32 captain = 5;
+ string if = 6;
+ string whose = 7;
+ string unknown = 8;
+ string pure = 9;
+message DRAWN {
+message DONKEY {
+message POST {
+ float prevent = 1;
+ string bent = 2;
+ int32 spring = 3;
+ int32 hollow = 4;
+ string sight = 5;
+ string dress = 6;
+ int32 birds = 7;
+ int32 shells = 8;
+ int32 mouse = 9;
+ string avoid = 10;
+ string lake = 11;
+ float saw = 12;
+ string sick = 13;
+ string certain = 14;
+ int32 ever = 15;
+ int32 burn = 16;
+ string tune = 17;
+message ME {
+message PRIMITIVE {
+ float president = 1;
+ string flow = 2;
+ float heading = 3;
+}
+ PRIMITIVE primitive = 1;
+ float useful = 2;
+ string done = 3;
+ string mouse = 4;
+ string species = 5;
+ float differ = 6;
+message BITE {
+ string be = 1;
+message ROUGH {
+message END {
+ int32 immediately = 1;
+message DREAM {
+message CASE {
+ string myself = 1;
+ float outer = 2;
+ string level = 3;
+ int32 rising = 4;
+ string bottom = 5;
+ string browserling = 6;
+ string needed = 7;
+ int32 call = 8;
+ float man = 9;
+ float cook = 10;
+ float party = 11;
+ string railroad = 12;
+ string gave = 13;
+message MEAN {
+ float fastened = 1;
+message FARM {
+ string off = 1;
+ float nervous = 2;
+ float practical = 3;
+ float bring = 4;
+ string you = 5;
+ int32 clothes = 6;
+}
+ FARM farm = 2;
+ string thee = 3;
+ string work = 4;
+ int32 library = 5;
+ string break = 6;
+ float stuck = 7;
+ float other = 8;
+ string let = 9;
+ float know = 10;
+ int32 dance = 11;
+ float problem = 12;
+ float valley = 13;
+ string loud = 14;
+}
+ MEAN mean = 14;
+}
+ CASE case = 1;
+ string wave = 2;
+ string myself = 3;
+ int32 cap = 4;
+ string exclaimed = 5;
+ string require = 6;
+ string camp = 7;
+ float park = 8;
+ float fifty = 9;
+ int32 setting = 10;
+ string trunk = 11;
+ string sport = 12;
+ string tune = 13;
+}
+ DREAM dream = 2;
+}
+ END end = 1;
+ int32 wing = 2;
+ int32 doll = 3;
+}
+ ROUGH rough = 2;
+ string special = 3;
+ string here = 4;
+}
+ BITE bite = 7;
+ int32 clearly = 8;
+ string particles = 9;
+ int32 finger = 10;
+ string answer = 11;
+ string instead = 12;
+ int32 molecular = 13;
+ float nice = 14;
+ float product = 15;
+ int32 lonely = 16;
+ string song = 17;
+ float flew = 18;
+ string coast = 19;
+ string apart = 20;
+ string population = 21;
+ string car = 22;
+ int32 amount = 23;
+ float so = 24;
+ string contain = 25;
+ string push = 26;
+ string radio = 27;
+ string south = 28;
+}
+ ME me = 18;
+ float island = 19;
+ string age = 20;
+ float keep = 21;
+ string depth = 22;
+ string clay = 23;
+ float caught = 24;
+}
+ POST post = 1;
+ float hard = 2;
+ string plus = 3;
+ int32 composition = 4;
+}
+ DONKEY donkey = 1;
+ float palace = 2;
+ string nature = 3;
+ string pet = 4;
+ float plan = 5;
+ float corn = 6;
+ int32 object = 7;
+ int32 steady = 8;
+ int32 kind = 9;
+ string sign = 10;
+ string can = 11;
+ string struck = 12;
+ int32 height = 13;
+ string consonant = 14;
+ int32 kitchen = 15;
+}
+ DRAWN drawn = 10;
+ string smell = 11;
+ string stock = 12;
+ int32 sure = 13;
+ float transportation = 14;
+ int32 familiar = 15;
+ int32 moment = 16;
+ string traffic = 17;
+ int32 wear = 18;
+ float compound = 19;
+ float teach = 20;
+ float by = 21;
+ string attempt = 22;
+ int32 inside = 23;
+ int32 foreign = 24;
+ float collect = 25;
+ float balance = 26;
+ int32 bone = 27;
+ string first = 28;
+}
