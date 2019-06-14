@@ -56,7 +56,7 @@ To run this test, run the following command, where `<no_test>` is the test numbe
 | 2           | 69                  | 165              | 41.81%                         |
 | 3           | 262                 | 818              | 32.02%                         |
 | 4           | 1113                | 3098             | 35.92%                         |
-| 5           | 6                   | 22               | 27/27%                         |
+| 5           | 6                   | 22               | 27.27%                         |
 
 To make an equal comparison, after serialization in JSON, the string was converted to a Buffer. Thus, we can see that, as we expected, protobuf has a much more compact format and sends fewer bytes over the network. Dimensional differences are quite notable because string transformation in Buffer encodes a lot of "extra" characters that are not useful either for the description of a field or for the information that is contained.
 
