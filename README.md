@@ -132,7 +132,9 @@ I think protobuf is a great alternative to JSON, especially in cases where a ver
 
 The disadvantages of using protobuf are the lack of documentation, but the open-source development community is on the rise. In addition, unlike JSON, it does not provide a human-readable format, which can make the debug more difficult.
 
+Because Google uses Protobuf internally and considers it a vital component, this format will be very stable.
 
+Possible worries are new message formats, such as FlatBuffers, that promise access to sections of the serialized object without unpacking the entire buffer. 
 
 ## References
 
