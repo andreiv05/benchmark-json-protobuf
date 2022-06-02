@@ -28,7 +28,7 @@
     "express": "^4.17.1",
     "google-protobuf": "^3.8.0",
     "os-utils": "0.0.14",
-    "protobufjs": "^6.8.8",
+    "protobufjs": "^6.11.3",
     "ws": "^7.0.0"
   }
 }
